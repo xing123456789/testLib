@@ -1,5 +1,5 @@
 PODS:
-  - TestKit (0.1.0)
+  - TestKit (0.2)
 
 DEPENDENCIES:
   - TestKit (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  TestKit: 7e82bec5a3540cf9ee1da456833f9232c7af4d03
+  TestKit: 9c6910648ed346a4635afcb10258273d9d9a6bb7
 
 PODFILE CHECKSUM: 518fdfcc8113cc699eea5de6099426725a63b4d5
 
