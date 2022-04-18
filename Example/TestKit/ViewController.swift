@@ -7,12 +7,15 @@
 //
 
 import UIKit
+import TestKit
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        let webView = CustomWebView(frame: CGRect(x: 0, y: 100, width: 300, height: 500))
+        webView.openWebView(html: "http://www.baidu.com")
+        self.view.addSubview(webView)
     }
 
     override func didReceiveMemoryWarning() {
